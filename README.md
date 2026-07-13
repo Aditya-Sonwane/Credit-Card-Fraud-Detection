@@ -107,16 +107,17 @@ result = service.predict_live_transaction(transaction_features)
 ## Project Structure
 
 Credit-Card-Fraud-Detection/
-│   .gitignore
-│   README.md
-│   requirements.txt
 │
-├───data
-│       README.md
+├── .gitignore
+├── README.md
+├── requirements.txt
 │
-├───models
-│       preprocessing_artifacts.joblib
-│       xgb_fraud_model.joblib
+├── data/
+│   └── README.md
 │
-└───src
-fraud_detection_pipeline.py
+├── models/
+│   ├── preprocessing_artifacts.joblib
+│   └── xgb_fraud_model.joblib
+│
+└── src/
+    └── fraud_detection_pipeline.py
